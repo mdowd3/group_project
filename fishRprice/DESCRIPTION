@@ -1,0 +1,17 @@
+Package: fishRprice
+Title: Easy To Use Fish Data Package
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Mike", "Dowd", , email = "mdowd3@hawaii.edu", role = c("aut", "cre")),
+    person("Corey", "Nevels", , email = "crnevels@hawaii.edu", role = "aut"),
+    person("Chutimon", "Singhakarn", , email = "chutimon@hawaii.edu", role = "aut"))
+Description: This package is designed to be easy to use for even the most R-illiterate user. The goal of this package is to provide functions that easily extract observations from large data sets, calculate basic fish biology measures, perform basic statistics, and run linear regressions for one or multiple parameters.
+License: MIT + file LICENSE
+Depends: R (>= 2.10)
+Imports:
+	magrittr,
+	dplyr,
+	MASS
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
